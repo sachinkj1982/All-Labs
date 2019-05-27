@@ -1,0 +1,8 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Issuer
+metadata:
+ name: self-ca-issuer-user15
+ namespace: namespace15
+spec:
+ ca:
+   secretName: hello-user15-tls-ca-key-pair
