@@ -10,7 +10,7 @@ spec:
         app: redis
     spec:
       containers:
-      - image: ilon1.icp:8500/default/redis:alpine
+      - image: optumera.icp:8500/default/redis:alpine
         name: redis
         volumeMounts:
         - mountPath: /data

@@ -10,7 +10,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: ilon1.icp:8500/default/postgres:9.4
+      - image: optumera.icp:8500/default/postgres:9.4
         name: db
         volumeMounts:
         - mountPath: /var/lib/postgresql/data

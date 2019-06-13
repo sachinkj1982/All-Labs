@@ -10,7 +10,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: ilon1.icp:8500/default/vote:0.1.0
+      - image: optumera.icp:8500/default/vote:0.1.0
         name: vote
         imagePullPolicy: IfNotPresent
       imagePullSecrets:

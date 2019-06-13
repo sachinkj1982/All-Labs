@@ -10,7 +10,7 @@ spec:
         app: worker
     spec:
       containers:
-      - image: ilon1.icp:8500/default/worker:0.1.0
+      - image: optumera.icp:8500/default/worker:0.1.0
         name: worker
         imagePullPolicy: IfNotPresent
       imagePullSecrets:

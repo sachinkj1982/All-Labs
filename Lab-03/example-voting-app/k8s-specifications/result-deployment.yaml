@@ -10,7 +10,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: ilon1.icp:8500/default/result:0.1.0
+      - image: optumera.icp:8500/default/result:0.1.0
         name: result
         imagePullPolicy: IfNotPresent
       imagePullSecrets:
