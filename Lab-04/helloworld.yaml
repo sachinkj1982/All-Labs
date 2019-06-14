@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: ilon1.icp:8500/default/examples-helloworld-v1:latest
+        image: optumera.icp:8500/default/examples-helloworld-v1:latest
         resources:
           requests:
             cpu: "100m"
